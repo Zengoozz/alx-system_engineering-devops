@@ -1,1 +1,15 @@
-pwd >> show path name
+- pwd: Show path for current directory
+- ls : List the content
+- cd : Return back to home directory
+- ls -l : List the files in long format
+- ls -la : List all files in long format including hidden files
+- ls -na : List all files in numeric long format including hidden files
+- mkdir -p /tmp/my_first_directory : Creating directory inside tmp directory
+- mv /tmp/betty /tmp/my_first_directory/betty : Moving betty file from tmp directory to my_first_directory which is inside temp
+- rm /tmp/my_first_directory/betty : Deleting betty file from tmp/my_first_directory
+- rmdir /tmp/my_first_directory : Removing the directory from tmp directory
+- cd - : going back to the previous working directory
+- ls -la . .. /boot : Listing all files in current directory and /boot directory in long format
+- file /tmp/iamafile : Show the file type
+- ln -s /bin/ls __ls__ : Create symbolic link to /bin/ls
+- cp \*.html .. : Copy all html files to the parent directory
